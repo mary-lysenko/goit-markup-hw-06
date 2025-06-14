@@ -21,6 +21,10 @@ p {
   margin: 0;
 }
 
+picture {
+  flex-shrink: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -116,14 +120,23 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero.jpg);
+    url(../images/Dark-bg-mob-min.jpg);
   margin: 0 auto;
   align-items: center;
   background-repeat: no-repeat;
-  /* padding: 188px 0; */
   padding: 72px 0;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-resolution: 2x) {
+  .hero-page {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x-min.jpg);
+  }
 }
 
 .hero-container {
@@ -138,13 +151,10 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #fff;
-  min-width: 216px;
+  max-width: 216px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 48px;
-  /* font-size: 56px;
-  line-height: 1.07; */
-  /* max-width: 496px; */
 }
 
 .hero-title-btn {
@@ -216,7 +226,11 @@ img {
 
 .page-team {
   background-color: #f4f4fd;
-  padding: 96px 28px;
+  padding: 96px 0px;
+}
+
+.page-team .container {
+  max-width: 296px;
 }
 
 .team-title {
