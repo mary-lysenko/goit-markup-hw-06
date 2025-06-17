@@ -194,6 +194,21 @@
     flex-direction: row;
     gap: 24px;
   }
+
+  /* ----------------MODAL-------------- */
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
+
+  .modal-title {
+    min-width: 360px;
+  }
+
+  .modal-input {
+    padding-left: 38px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
