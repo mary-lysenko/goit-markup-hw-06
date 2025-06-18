@@ -1,6 +1,5 @@
 @media screen and (min-width: 768px) {
-  .container,
-  .page-team .container {
+  .container {
     max-width: 768px;
   }
 
@@ -132,11 +131,9 @@
 
   /* ----------------TEAM-------------- */
 
-  .page-team {
-    padding-left: 108px;
-    padding-right: 108px;
+  .page-team .container {
+    max-width: 584px;
   }
-
   .team-list {
     flex-wrap: wrap;
     flex-direction: row;
