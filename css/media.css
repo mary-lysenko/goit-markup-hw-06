@@ -337,11 +337,13 @@
 
   .footer-info {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .footer-icons {
     text-align: left;
     margin-right: 80px;
+    margin-bottom: 0;
   }
 
   .footer-subscribe-text {
