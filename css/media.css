@@ -197,14 +197,11 @@
   .modal {
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 
   .modal-title {
     min-width: 360px;
-  }
-
-  .modal-input {
-    padding-left: 38px;
   }
 }
 
